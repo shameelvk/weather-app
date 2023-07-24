@@ -91,3 +91,42 @@ body{
     color: darkslategrey;
     
 }
+@media all and (max-width: 480px) {
+    .card {
+        width: 90%;
+        max-width: 470px;
+        background: linear-gradient(135deg,#00feba,#5b548a);
+        color: #fff;
+        /* margin: 30px 12px 0; */
+        border-radius: 30px;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .serch {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .serch input {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 45px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 2px;
+        font-size: 18px;
+    }
+    .serch button {
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+  }
